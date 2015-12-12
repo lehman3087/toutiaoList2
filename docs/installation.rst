@@ -316,8 +316,8 @@ Supervisor 配置::
 
     [program:wtxlog]
     user=www
-    directory={{approot}}
-    command=/bin/env env/bin/gunicorn -b unix:app_wtxlog.sock manage:app
+    directory=/alidata/wwwroot/wtxlog
+    command=/bin/env venv/bin/gunicorn  unix:app_wtxlog.sock manage:app
     process_name=%(program_name)s
     numprocs=1
     autostart=true

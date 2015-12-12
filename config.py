@@ -95,7 +95,9 @@ class DevelopmentConfig(Config):
     SQLALCHEMY_ECHO = True
 
     SQLALCHEMY_DATABASE_URI = os.getenv('DEV_DATABASE_URI') or \
-        'sqlite:///%s' % os.path.join(basedir, 'data_dev_sqlite.db')
+       'sqlite:///%s' % os.path.join(basedir, 'data_dev_sqlite.db')
+#    SQLALCHEMY_DATABASE_URI = "mysql://%s:%s@%s/%s" % (
+#         'xfe2', 'xfe123456', '114.215.82.219', 'wtx')
 
     @classmethod
     def init_app(cls, app):
@@ -221,11 +223,11 @@ class ProductionConfig(Config):
         'sqlite:///%s' % os.path.join(basedir, 'data_sqlite.db')
 
     # mysql configuration
-    MYSQL_USER = os.getenv('MYSQL_USER') or ''
-    MYSQL_PASS = os.getenv('MYSQL_PASS') or ''
-    MYSQL_HOST = os.getenv('MYSQL_HOST') or ''
-    MYSQL_PORT = os.getenv('MYSQL_PORT') or ''
-    MYSQL_DB = os.getenv('MYSQL_DB') or ''
+    MYSQL_USER = os.getenv('MYSQL_USER') or 'xfe2'
+    MYSQL_PASS = os.getenv('MYSQL_PASS') or 'xfe123456'
+    MYSQL_HOST = os.getenv('MYSQL_HOST') or '114.215.82.219'
+    MYSQL_PORT = os.getenv('MYSQL_PORT') or '3306'
+    MYSQL_DB = os.getenv('MYSQL_DB') or 'wtx'
 
     if (len(MYSQL_USER) > 0 and len(MYSQL_PASS) > 0 and
             len(MYSQL_HOST) > 0 and len(MYSQL_PORT) > 0 and

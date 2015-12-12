@@ -91,9 +91,55 @@ class Role(db.Model):
         return self.name
 
 
+class Department(db.Model):
+    __tablename__='departments'
+    id = db.Column(db.Integer, primary_key=True)
+    pid=db.Column(db.Integer,db.ForeignKey('departments.id'))
+    pdepartment = db.relationship('Department', uselist=False, remote_side=[id], backref=db.backref('sdepartment', uselist=False))
+    name = db.Column(db.String(20), unique=True)
+
+    def __init__(self,name,pdepartment=None):
+        self.name=name
+        self.pdepartment=pdepartment
+    def __repr__(self):
+        return '<Department %r>' % self.name
+    def save(self):
+        db.session.add(self)
+        db.session.commit()
+
+class Position(db.Model):
+    __tablename__='positions'
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(20), unique=True)
+
+    def __init__(self, *args, **kwargs):
+        super(Position, self).__init__(*args, **kwargs)
+
+    def __repr__(self):
+        return '<Position %r>' % self.name
+    def save(self):
+        db.session.add(self)
+        db.session.commit()
+
+
+
+
+class UserQuery(BaseQuery):
+
+
+    def jsonify(self):
+        for user in self.all():
+            yield user.json
+
+    def get_all(self):
+        return self.join(Position).join(Department).filter(User.id>0)
+
+
 class User(UserMixin, db.Model):
 
     __tablename__ = 'users'
+
+    query_class = UserQuery
 
     id = db.Column(db.Integer, primary_key=True)
     email = db.Column(db.String(64), unique=True, index=True)
@@ -106,6 +152,10 @@ class User(UserMixin, db.Model):
     member_since = db.Column(db.DateTime(), default=datetime.now)
     last_seen = db.Column(db.DateTime(), default=datetime.now)
     avatar_hash = db.Column(db.String(32))
+    department_id = db.Column(db.Integer,db.ForeignKey(Department.id, ondelete='CASCADE'))
+    department=db.relation(Department,innerjoin=True,backref=db.backref('user_set',lazy='dynamic'))
+    position_id = db.Column(db.Integer,db.ForeignKey(Position.id, ondelete='CASCADE'))
+    position=db.relation(Position,innerjoin=True,backref=db.backref('user_set',lazy='dynamic'))
 
     __mapper_args__ = {'order_by': [confirmed.desc(), id.desc()]}
 
@@ -623,6 +673,157 @@ db.event.listen(Article.body, 'set', Article.on_changed_body)
 db.event.listen(Article, 'before_insert', Article.before_insert)
 
 
+class ApplyQuery(BaseQuery):
+
+    def jsonify(self):
+        for apply in self.all():
+            yield apply.json
+
+    def as_list(self):
+        """
+        Return restricted list of columns for list queries
+        """
+
+        deferred_cols = ("title",
+                         "reason",
+                         "result",
+                         "applyer.username",
+                         "start_time",
+                         "end_time",
+                         "state",
+                         "update_time")
+
+        options = [db.defer(col) for col in deferred_cols]
+        return self.options(*options)
+
+
+    def latest(self):
+        return self.order_by(Apply.id.desc())
+
+
+
+
+
+    def latestforuser(self,userid):
+        return self.filter(Apply.applyer_id==userid)
+
+    def search(self, keywords):
+
+        criteria = []
+
+        for keyword in keywords.split():
+
+            keyword = '%' + keyword + '%'
+
+            criteria.append(db.or_(Apply.title.ilike(keyword),
+                                   Apply.reason.ilike(keyword),
+                                   Apply.result.ilike(keyword),
+                                   User.username.ilike(keyword)))
+
+        q = reduce(db.and_, criteria)
+
+        return self.filter(q).join(User).distinct()
+
+
+class Apply(db.Model):
+
+    __tablename__ = "applys"
+
+    PUBLIC = 100
+    FRIENDS = 200
+    PRIVATE = 300
+
+    AGREE = 100
+    DISAGREE = 200
+    WAIT = 300
+
+    READED=100
+    UNREAD=200
+
+    PER_PAGE = 10
+
+    query_class = ApplyQuery
+
+    id = db.Column(db.Integer, primary_key=True)
+
+    applyer_id = db.Column(db.Integer,
+                          db.ForeignKey(User.id, ondelete='CASCADE'),
+                          nullable=False)
+
+    title = db.Column(db.Unicode(200))
+    reason = db.Column(db.UnicodeText)
+    start_time = db.Column(db.DateTime, default=datetime.utcnow)
+    end_time = db.Column(db.DateTime, default=datetime.utcnow)
+    num_comments = db.Column(db.Integer, default=0)
+    access = db.Column(db.Integer, default=PUBLIC)
+    state = db.Column(db.Integer, default=WAIT)
+    readed = db.Column(db.Integer, default=UNREAD)
+    result = db.Column(db.UnicodeText)
+    update_time = db.Column(db.DateTime, default=datetime.utcnow)
+
+    applyer = db.relation(User, innerjoin=True, lazy="joined")
+
+    __mapper_args__ = {'order_by': id.desc()}
+
+
+    def __init__(self, *args, **kwargs):
+        super(Apply, self).__init__(*args, **kwargs)
+        self.access = self.access or self.PUBLIC
+
+    def __str__(self):
+        return self.title
+
+    def __repr__(self):
+        return "<%s>" % self
+
+    @cached_property
+    def permissions(self):
+        return self.Permissions(self)
+
+    def approval(self):
+        self.state=Apply.AGREE
+
+
+    def get_state(self):
+        return self.state
+
+    def read(self):
+        self.readed=Apply.READED
+
+    @cached_property
+    def json(self):
+        """
+        Returns dict of safe attributes for passing into
+        a JSON request.
+        """
+
+        return dict(apply_id=self.id,
+                    reason=self.reason,
+                    start_time=self.start_time,
+                    end_time=self.end_time,
+                    result=self.result,
+                    applyer=self.applyer.username)
+
+
+
+    def _url(self, _external=False):
+        return url_for('apply.view',
+                       apply_id=self.id,
+                       slug=self.slug,
+                       _external=_external)
+
+    @cached_property
+    def url(self):
+        return self._url()
+
+    @cached_property
+    def permalink(self):
+        return self._url(True)
+
+
+
+
+
 class Link(db.Model):
     """内部链接"""
 
@@ -825,3 +1026,6 @@ class Setting(db.Model):
 
 db.event.listen(Setting, 'after_insert', Setting.after_update)
 db.event.listen(Setting, 'after_update', Setting.after_update)
+
+
+

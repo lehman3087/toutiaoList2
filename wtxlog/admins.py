@@ -208,6 +208,45 @@ class CategoryAdmin(sqla.ModelView):
     def is_accessible(self):
         return current_user.is_administrator()
 
+class DepartmentAdmin(sqla.ModelView):
+
+    create_template = "admin/model/a_create.html"
+    edit_template = "admin/model/a_edit.html"
+
+    column_list = ('name', 'pid')
+
+    column_searchable_list = ('name')
+
+#    form_excluded_columns = ('articles', 'body_html', 'longslug', 'children')
+
+#    form_overrides = dict(seodesc=TextAreaField, body=EDITOR_WIDGET)
+
+#    column_formatters = dict(view_on_site=view_on_site)
+
+    column_labels = dict(
+        pid=_('Parent'),
+        name=_('Name'),
+    )
+
+    form_widget_args = {
+        'name': {'style': 'width:320px;'},
+        'pid': {'style': 'width:320px;'},
+    }
+
+    # Model handlers
+    def on_model_delete(self, model):
+        if model.count > 0:
+            raise Exception('Category <%s> is not empty.' % model.name)
+
+    def on_model_change(self, form, model, is_created):
+        if not model.id:
+            c = Department.query.filter_by(name=model.name).first()
+            if c:
+                raise Exception('Category <%s> is already exist' % c.name)
+
+    def is_accessible(self):
+        return current_user.is_administrator()
+
 
 class TagAdmin(sqla.ModelView):
 
@@ -519,6 +558,7 @@ admin = Admin(index_view=MyAdminIndexView(),
 # add views
 admin.add_view(TopicAdmin(Topic, db.session, name=_('Topic')))
 admin.add_view(CategoryAdmin(Category, db.session, name=_('Category')))
+#admin.add_view(DepartmentAdmin(Department, db.session, name=_('Department')))
 admin.add_view(TagAdmin(Tag, db.session, name=_('Tag')))
 admin.add_view(ArticleAdmin(Article, db.session, name=_('Article')))
 admin.add_view(FlatpageAdmin(Flatpage, db.session, name=_('Flatpage')))
