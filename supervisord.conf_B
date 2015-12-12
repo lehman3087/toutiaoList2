@@ -1,0 +1,10 @@
+[program:wtxlog]
+user=www
+directory=/alidata/wwwroot/wtxlog
+command=/bin/env env/bin/gunicorn  unix:app_wtxlog.sock manage:app -c /alidata/wwwroot/wtxlog/gunicorn.conf
+process_name=%(program_name)s
+numprocs=1
+autostart=true
+autorestart=true
+stopsignal=QUIT
+redirect_stderr=true
