@@ -14,7 +14,7 @@ class Config:
     SITE_NAME = u'wtxlog'
 
     # 是否启用博客模式
-    BLOG_MODE = True
+    BLOG_MODE = False
 
     # html or markdown
     BODY_FORMAT = os.getenv('BODY_FORMAT') or 'html'

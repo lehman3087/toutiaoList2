@@ -52,7 +52,7 @@ def index(template, page=1):
                                articles=articles,
                                pagination=pagination)
     else:
-        return render_template(_template)
+        return render_template('main.html')
 
 
 @main.route('/article/<int:article_id>/')

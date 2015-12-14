@@ -1,0 +1,216 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--由中企动力科技集团股份有限公司贵阳分公司技术部设计制作<br>如果您有任何意见或建议请电邮dm-guiyang@300.cn-->
+<html xmlns="http://www.w3.org/1999/xhtml">  
+  <head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>贵州黔宝金店</title>
+<meta name="keywords" content="黔宝,贵州黔宝金店,黔宝金店,贵州黔宝,黔宝,贵州黔宝金店,黔宝金店,贵州黔宝,贵州黔宝金店," />
+<meta name="description" content="黔宝金店,具有百年历史,主要经营黄金、铂金、玉石、翡翠、钻石、彩宝等产品。黔宝金店是西南地区最大的黄金珠宝品牌,其每年销量在行业中也是首屈一指、名列前茅。"/>
+<meta name="copyright" content="黔宝金店"/>  
+    <link href="/styles/lib.min.css?t=1428545347184.css" rel="stylesheet" type="text/css" />
+<link href="/styles/page_index.min.css?t=1428545347184.css" rel="stylesheet" type="text/css" />
+  
+<script type="text/javascript" src="/publicScripts/common/jquery.js"></script>
+<script type="text/javascript" src="/publicScripts/lib.min.js"></script>
+<script src="/publicScripts/components/??FrontPublic_slideShow01.min.js"></script>
+<script src="/scripts/common/pngjs.js" type="text/javascript"></script>
+  </head>  
+  <body  id="index"> 
+    <div class="pageWidth" id="box_root"> 
+      <!--导航开始-->  
+      <div class="daohuang" id="box_1"> 
+        <div class="daohuang1" id="box_1_1"> 
+          <!-- daohang-->  
+            
+          <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />  
+          <link href="/styles/zzsc.css" media="screen" rel="stylesheet" type="text/css" />  
+                               <script src="/scripts/common/pngjs.js" type="text/javascript"></script>  
+          <base target="_blank" />  
+          <!-- ￿￿￿ʼ -20-->  
+          <div class="content"> 
+            <ul class="menu" id="menu"> 
+              <li class="img1"> 
+                <a href="/index.html" target="_self"> 
+                  <img alt="" src="images/home.png" /> 
+                </a>  
+                <div class="sc_menu_wrapper"> 
+                  <div class="sc_menu"> 
+                    <a href="/index.html" target="_self"> 
+                      <img alt="" src="images/icons/home.png" /> 
+                    </a> 
+                  </div> 
+                </div> 
+              </li>  
+              <li> 
+                <a href="/about.html" target="_self"> 
+                  <img alt="" src="images/about.png" /> 
+                </a>  
+                <div class="sc_menu_wrapper"> 
+                  <div class="sc_menu"> 
+                    <a href="/about.html" target="_self"> 
+                      <img alt="" src="images/icons/about.png" /> 
+                    </a> 
+                  </div> 
+                </div> 
+              </li>  
+              <li> 
+                <a href="/jinp.html"> 
+                  <img alt="" src="images/Product.png" /> 
+                </a>  
+                <div class="sc_menu_wrapper"> 
+                  <div class="sc_menu"> 
+                    <a href="/jinp.html" target="_self"> 
+                      <img alt="" src="images/icons/pdc.png" /> 
+                    </a> 
+                  </div> 
+                </div> 
+              </li>  
+              <li class="sa1" id="sa1"> 
+                <img src="images/logo.png" /> 
+              </li>  
+              <li> 
+                <a href="/new.html"> 
+                  <img alt="" src="images/news.png" /> 
+                </a>  
+                <div class="sc_menu_wrapper"> 
+                  <div class="sc_menu"> 
+                    <a href="/new.html" target="_self"> 
+                      <img alt="" src="images/icons/news.png" /> 
+                    </a> 
+                  </div> 
+                </div> 
+              </li>  
+              <li> 
+                <a href="/mai.html"> 
+                  <img alt="" src="images/stor.png" /> 
+                </a>  
+                <div class="sc_menu_wrapper"> 
+                  <div class="sc_menu"> 
+                    <a href="/mai.html" target="_self"> 
+                      <img alt="" src="images/icons/sotr.png" /> 
+                    </a> 
+                  </div> 
+                </div> 
+              </li>  
+              <li> 
+                <a href="/job.html"> 
+                  <img alt="" src="images/job.png" /> 
+                </a>  
+                <div class="sc_menu_wrapper"> 
+                  <div class="sc_menu"> 
+                    <a href="/job.html" target="_self"> 
+                      <img alt="" src="images/icons/job.png" /> 
+                    </a> 
+                  </div> 
+                </div> 
+              </li> 
+            </ul> 
+          </div>  
+          <!-- The JavaScript -->  
+            <script type="text/javascript">
+    $(function(){
+        /* function to make the thumbs menu scrollable */
+        function buildThumbs($elem){
+            var $wrapper    	= $elem.next();
+            var $menu 		= $wrapper.find('.sc_menu');
+            var inactiveMargin 	= 150;
+            /* move the scroll down to the
+            beggining (move as much as the height of the menu) */
+            $wrapper.scrollTop($menu.outerHeight());
+            
+            /* when moving the mouse up or down, the wrapper moves (scrolls) up or down */
+            $wrapper.bind('mousemove',function(e){
+                var wrapperHeight 	= $wrapper.height();
+                var menuHeight 	= $menu.outerHeight() + 2 * inactiveMargin;
+                var top 	= (e.pageY - $wrapper.offset().top) * (menuHeight - wrapperHeight) / wrapperHeight - inactiveMargin;
+                $wrapper.scrollTop(top+10);
+            });
+        }
+        
+        var stacktime;
+        
+        $('#menu li > a').bind('mouseover',function () {
+            var $this = $(this);
+            
+            buildThumbs($this);
+            
+            var pos	=	$this.next().find('a').size();
+            var f	=	function(){
+                if(pos==0) clearTimeout(stacktime);
+                $this.next().find('a:nth-child('+pos+')').css('visibility','visible');
+                --pos;
+            };
+            /* each thumb will appear with a delay */
+            stacktime = setInterval(f , 0);
+        });
+        
+        /* on mouseleave of the whole <li> the scrollable area is hidden */
+        $('#menu li').bind('mouseleave',function () {
+            var $this = $(this);
+            clearTimeout(stacktime);
+            $this.find('.sc_menu').css('visibility','hidden').find('a').css('visibility','hidden');
+            $this.find('.sc_menu_wrapper').css('visibility','hidden');
+        });
+        
+        /* when hovering a thumb, change its opacity */
+        $('.sc_menu a').hover(
+        function () {
+            var $this = $(this);
+            $this.find('img')
+            .stop()
+            .animate({'opacity':'1.0'},400);
+        },
+        function () {
+            var $this = $(this);
+            $this.find('img')
+            .stop()
+            .animate({'opacity':'1.0'},400);
+        }
+    );
+    });
+</script>  
+          <!-- 代码 结束 -->  
+          
+                   </div>       </div>  
+      <!--导航结束-->  
+      <!--幻灯片开始-->        <div class="huandengpian" id="box_01">         <div class="huangdengpian" id="box_01_01">           <div xmlns="" class="columnSpace" id="elem-FrontPublic_slideShow01-1415361289506" name="公用幻灯">  
+            <script language="javascript">
+	//<![CDATA[
+		FrontPublic_slideShow01['FrontPublic_slideShow01-1415361289506_init'] = function (){
+		 FrontPublic_slideShow01['FrontPublic_slideShow01-1415361289506_init'] = new FrontPublic_slideShow01();
+		 FrontPublic_slideShow01['FrontPublic_slideShow01-1415361289506_init'].ce_slide_init("requestDataFilePath=/comp-FrontSlide_listJson01-1415361289506&showType=1&changeTimes=5000&slideWidth=960&slideHeight=null&openType=_blank&isShowSlideTitle=0&isShowSlideContent=0&slideData=1","slideCategoryId=2&interceptSlideTitle=&maxSlideTitle=10&interceptSlideContent=&maxSlideContent=20&productCategoryLink=/products_list.html&productLink=/products_detail.html&newsCategoryLink=/news_list.html&newsLink=/news_detail.html&downloadCategoryLink=/download_list.html&downloadLink=/download_detail.html&galleryCategoryLink=/gallery_list.html&galleryLink=/gallery_detail.html&jobLink=/job_detail.html&comcontentLink=/comcontent_detail.html");
+		}
+		$(FrontPublic_slideShow01['FrontPublic_slideShow01-1415361289506_init']);
+	// ]]>
+</script>  
+<div id="FrontPublic_slideShow01-1415361289506" class="FrontPublic_slideShow01-d1_c1"><script type="text/javascript" src="/publicScripts/common/png.js"></script>
+<div class="slide-contente">
+    	<div class="slide-pic">
+        	<ul></ul>
+    	</div><div class="slide-info-mark"></div>
+    	<div class="slide-info">
+            <h3></h3>
+            <div class="slide-text">
+            </div><div class="slide-tag-text">
+           	  <ul></ul>
+            </div></div></div><div class="slide-tag-thumbnail">
+  		<div class="arrowhead-left arrowhead"></div>
+        <div class="thumbnail-list">
+    		<ul></ul>
+        </div>
+        <div class="arrowhead-right arrowhead"></div>
+        <div class="clearBoth"></div>
+   </div>
+</div>           </div>        </div>          <div id="apDiv1"></div>       </div>  
+      <!--幻灯片结束-->  
+      <!--底部开始-->        <div id="box_2">         <div id="box_2_sub1">           <div xmlns="" class="columnSpace" id="elem-FrontSpecifies_show01-1415581432827" name="说明页">  
+            <div id="FrontSpecifies_show01-1415581432827" class="FrontSpecifies_show01-d3_c1"><div class="describe htmledit">
+       <p style="line-height: 2em; margin-top: 0em; text-indent: 0em; margin-bottom: 0em; letter-spacing: 0em;">
+	<span style="color: #ffecdb;"><span style="font-size: 12px;">Copyright &copy; 2011 qbjd All rights reserved.</span></span><span style="color:#ffffff;"><span style="font-size: 12px;">&nbsp;</span>黔ICP备13001833号-1</span>&nbsp;<span style="color: #ffecdb;font-size: 12px;">&nbsp; 服务热线：400-861-9899&nbsp; 地址：贵州省贵阳市金阳世纪购物中心C栋1楼黔宝金店<br />
+	<a href="/about.html" style="color: #ffecdb;">公司介绍</a>&nbsp; |&nbsp; </span> <span style="color: #fff;font-size: 12px;"><a href="/mai.html" style="color:#ffecdb">分店展示</a></span></p>
+<div id="erweima">
+	<img alt="" src="/imageRepository/41a355ff-7f44-4c81-951e-e6fa7f3fc22f.jpg" /></div></div>
+</div>           </div>        </div>       </div>  
+      <!--底部结束-->     </div>   <div id="elem-FrontPublic_wisher01-2014"></div><script language='javascript' src='http://ztouch1.gather.shushang-z.cn/scripts/visittrack.js'  type='text/javascript'></script><script type='text/javascript'>var visittrack_siteId ='ZTS_ZT_ZH_CN_2014062300122'; var visittrack_url='http://ztouch1.gather.shushang-z.cn/trace.do';VisitTrack.visittrack_log( visittrack_siteId, visittrack_url);</script></body></html>
