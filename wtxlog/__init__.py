@@ -5,8 +5,9 @@ from flask import Flask, send_from_directory
 from flask.ext.themes import setup_themes
 from flask.ext.mobility import Mobility
 from config import config
-from ext import babel, cache, db, mail, login_manager
+from ext import babel, cache, db, mail, login_manager,thumbnail
 from models import User, AnonymousUser, Setting
+
 
 # 默认是basic, strong这个强度在BAE3下造成登陆几秒之后就退出的现象
 # 而JAE,SAE上不会出现, 也有可能是应用引擎环境的问题, 暂时使用默认值
@@ -56,6 +57,7 @@ def create_app(config_name):
         configure_custom_settings(app)
     config[config_name].init_app(app)
 
+    thumbnail.init_app(app)
     babel.init_app(app)
     cache.init_app(app)
     login_manager.init_app(app)

@@ -18,6 +18,9 @@ from .ext import cache
 from .models import *
 
 from config import Config
+from wtxlog.utils.prefix_file_utcnow import prefix_file_utcnow
+
+from flask_admin_s3_upload import S3ImageUploadField
 
 BODY_FORMAT = Config.BODY_FORMAT
 if BODY_FORMAT == 'html':
@@ -67,7 +70,16 @@ class ArticleAdmin(sqla.ModelView):
                    'recommend', 'created', 'view_on_site')
 
     form_excluded_columns = ('author', 'body_html', 'hits', 'created',
-                             'last_modified',)
+                             'last_modified','seotitle')
+    form_args = dict(
+        thumbnail_big=dict(
+            base_path=Config.UPLOADS_FOLDER,
+            relative_path=Config.THINGY_IMAGE_RELATIVE_PATH,
+            url_relative_path=Config.UPLOADS_RELATIVE_PATH,
+            namegen=prefix_file_utcnow,
+            storage_type_field='image_storage_type',
+            bucket_name_field='image_storage_bucket_name',
+        ))
 
     column_searchable_list = ('title',)
 
@@ -82,7 +94,7 @@ class ArticleAdmin(sqla.ModelView):
     form_edit_rules = form_create_rules
 
     form_overrides = dict(seodesc=TextAreaField, body=EDITOR_WIDGET,
-                          summary=TextAreaField)
+                          summary=TextAreaField,thumbnail_big=S3ImageUploadField)
 
     column_labels = dict(
         title=_('Title'),
@@ -111,7 +123,6 @@ class ArticleAdmin(sqla.ModelView):
         'seokey': {'style': 'width:480px;'},
         'seodesc': {'style': 'width:480px; height:80px;'},
         'thumbnail': {'style': 'width:480px;'},
-        'thumbnail_big': {'style': 'width:480px;'},
         'template': {'style': 'width:480px;'},
         'summary': {'style': 'width:680px; height:80px;'},
     }
@@ -556,18 +567,18 @@ admin = Admin(index_view=MyAdminIndexView(),
               base_template="admin/my_master.html")
 
 # add views
-admin.add_view(TopicAdmin(Topic, db.session, name=_('Topic')))
+#admin.add_view(TopicAdmin(Topic, db.session, name=_('Topic')))
 admin.add_view(CategoryAdmin(Category, db.session, name=_('Category')))
 #admin.add_view(DepartmentAdmin(Department, db.session, name=_('Department')))
-admin.add_view(TagAdmin(Tag, db.session, name=_('Tag')))
+#admin.add_view(TagAdmin(Tag, db.session, name=_('Tag')))
 admin.add_view(ArticleAdmin(Article, db.session, name=_('Article')))
-admin.add_view(FlatpageAdmin(Flatpage, db.session, name=_('Flatpage')))
+#admin.add_view(FlatpageAdmin(Flatpage, db.session, name=_('Flatpage')))
 
-admin.add_view(LabelAdmin(Label, db.session, name=_('Snippet')))
+#admin.add_view(LabelAdmin(Label, db.session, name=_('Snippet')))
 
-admin.add_view(FriendLinkAdmin(FriendLink, db.session, name=_('FriendLink')))
-admin.add_view(RedirectAdmin(Redirect, db.session, name=_('Redirect')))
+#admin.add_view(FriendLinkAdmin(FriendLink, db.session, name=_('FriendLink')))
+#admin.add_view(RedirectAdmin(Redirect, db.session, name=_('Redirect')))
 
-admin.add_view(SettingAdmin(Setting, db.session, name=_('Setting')))
+#admin.add_view(SettingAdmin(Setting, db.session, name=_('Setting')))
 
 admin.add_view(UserAdmin(User, db.session, name=_('User')))

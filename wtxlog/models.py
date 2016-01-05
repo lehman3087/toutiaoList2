@@ -539,6 +539,15 @@ class ArticleQuery(BaseQuery):
     def public(self):
         return self.filter_by(published=True)
 
+    def zhiding(self):
+        return self.filter_by(published=True,ontop=True).limit(5).all()
+
+    def zhidingCount(self):
+        return self.filter_by(published=True,ontop=True).limit(5).count()
+
+    def normal(self):
+        return self.filter_by(published=True,ontop=False)
+
     def search(self, keyword):
         criteria = []
 
@@ -661,6 +670,14 @@ class Article(db.Model):
                     target.summary = _format(markitup(value[:more_start]))
                 else:
                     target.summary = _format(target.body_html)
+    @property
+    def image_url(self):
+        from flask import current_app as app
+        return (self.image
+            and '%s%s' % (
+                app.config['UPLOADS_RELATIVE_PATH'],
+                self.image)
+            or None)
 
     @staticmethod
     def on_changed_body(target, value, oldvalue, initiator):

@@ -35,7 +35,7 @@ def deploy():
     return 'deployed'
 
 
-@main.route('/')
+@main.route('/index/')
 @main.route('/page/<int:page>/')
 @mobile_template('{mobile/}%s')
 @cache.cached()
@@ -81,13 +81,20 @@ def category(template, longslug, page=1):
     _query = Article.query.public().filter(Article.category_id.in_(cate_ids))
     pagination = Page(_query, page=page, items_per_page=Article.PER_PAGE, url=_url)
 
+    zhidings=Article.query.zhiding()
     articles = pagination.items
+
+    zhidingsCount=Article.query.zhidingCount()
+
 
     _template = template % (category.template or 'category.html')
     return render_template(_template,
                            category=category,
                            pagination=pagination,
-                           articles=articles)
+                           articles=articles,
+                           zhidings=zhidings,
+                           zhidingsCount=zhidingsCount
+                            )
 
 
 @main.route('/archives/<int:year>/<int:month>/')

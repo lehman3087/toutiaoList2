@@ -5,6 +5,10 @@ __pycache__/
 # vim swap file
 *.swp
 
+	
+
+	vzxcvasdfasdfasdf
+
 # sqlite database files
 *.db
 *.sqlite

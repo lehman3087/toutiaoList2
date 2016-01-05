@@ -115,7 +115,7 @@ BAE环境
     CACHE_BAE_SERVERS = 'cache.duapp.com:20243'
     CACHE_BAE_ID = ''
 
-    # mysql configuration
+    # mysql
     MYSQL_USER = BAE_AK
     MYSQL_PASS = BAE_SK
     MYSQL_HOST = 'sqld.duapp.com'

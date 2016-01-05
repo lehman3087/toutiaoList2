@@ -11,7 +11,7 @@ from flask.ext.mail import Mail, Message
 from flask.ext.sqlalchemy import SQLAlchemy
 from flask.ext.login import LoginManager
 from werkzeug._compat import text_type, to_bytes
-
+from flask_thumbnails_s3 import Thumbnail
 
 def keywords_split(keywords):
     return keywords.replace(u',', ' ') \
@@ -249,7 +249,7 @@ def baememcache(app, config, args, kwargs):
 mail = Mail()
 db = SQLAlchemy()
 babel = Babel()
-
+thumbnail=Thumbnail()
 login_manager = LoginManager()
 cache = WtxlogCache()
 

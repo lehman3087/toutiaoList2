@@ -3,7 +3,12 @@
 import os
 import logging
 from hashlib import md5
+from os import path
+from flask import current_app
 
+
+PROJECT_ROOT = path.dirname(__file__)
+#UPLOAD_FOLDER = os.path.join(current_app.static_folder, 'uploadfiles')
 basedir = os.path.abspath(os.path.dirname(__file__))
 datadir = 'data'
 
@@ -55,6 +60,20 @@ class Config:
     QINIU_BUCKET = os.getenv('QINIU_BUCKET') or ''
     QINIU_DOMAIN = os.getenv('QINIU_DOMAIN') or '%s.qiniudn.com' % QINIU_BUCKET
 
+    UPLOADS_RELATIVE_PATH = 'uploads/'
+    UPLOADS_FOLDER = path.abspath('wtxlog/static/%s' % UPLOADS_RELATIVE_PATH)
+
+    MEDIA_FOLDER = path.abspath('wtxlog/static/%s' % UPLOADS_RELATIVE_PATH.replace('/', ''))
+   # MEDIA_URL = path.abspath('static/%s' % UPLOADS_RELATIVE_PATH)
+    MEDIA_URL = 'wtxlog/static/%s' % UPLOADS_RELATIVE_PATH
+    MEDIA_THUMBNAIL_FOLDER = path.abspath('wtxlog/static/uploads/cache/thumbnails')
+    MEDIA_THUMBNAIL_URL = 'cache/thumbnails/'
+
+    THUMBNAIL_S3_BUCKET_NAME = 'lehman'
+#    MEDIA_THUMBNAIL_FOLDER = path.abspath(path.join(PROJECT_ROOT, '../static/cache/thumbnails'))
+    S3_USE_HTTPS = False
+    THINGY_IMAGE_RELATIVE_PATH = 'image/'
+
     @staticmethod
     def get_mailhandler():
         # send email to the administrators if errors occurred
@@ -94,10 +113,10 @@ class DevelopmentConfig(Config):
 
     SQLALCHEMY_ECHO = True
 
-    SQLALCHEMY_DATABASE_URI = os.getenv('DEV_DATABASE_URI') or \
-       'sqlite:///%s' % os.path.join(basedir, 'data_dev_sqlite.db')
-#    SQLALCHEMY_DATABASE_URI = "mysql://%s:%s@%s/%s" % (
-#         'xfe2', 'xfe123456', '114.215.82.219', 'wtx')
+   # SQLALCHEMY_DATABASE_URI = os.getenv('DEV_DATABASE_URI') or \
+    #   'sqlite:///%s' % os.path.join(basedir, 'data_dev_sqlite.db')
+    SQLALCHEMY_DATABASE_URI = "mysql://%s:%s@%s/%s" % (
+         'xfe2', 'xfe123456', '114.215.82.219', 'wtx')
 
     @classmethod
     def init_app(cls, app):

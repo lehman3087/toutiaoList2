@@ -191,7 +191,7 @@ msgstr "描述"
 
 #: ../admins.py:515
 msgid "Admin"
-msgstr "网站管理"
+msgstr "头条二级栏目管理"
 
 #: ../admins.py:521
 msgid "Tag"
