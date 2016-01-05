@@ -2,239 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a520eab9-2112-487a-8f28-fa083a921101" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/static/uploads/image/2016-01-04-17-10-32.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/static/cache/thumbnails/image/2016-01-04-17-10-32_100x100_85.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/static/uploads/cache/thumbnails/image/2016-01-04-17-10-32_100x100_85.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/arrow_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/arrow_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/arrow_left_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/arrow_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/arrow_right_gray.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/arrow_right_gray1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/check_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/check_icon_disable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/check_radio_selected.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/check_radio_selected_disable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/class/class_chat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/class/class_course.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/class/class_data.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/class_ico.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/class/class_intro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/class/class_member.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/class/class_notice.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/class/class_qingjia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/class/class_question.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/class/class_signin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/class/class_teacher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/class/class_test.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/error_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/class/exit_class.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/fail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/font-8196.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_about.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_bag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_buy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_car.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_card.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_chat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_clothes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_coupon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_crown.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_cup.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_custom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_date.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_detail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_dinner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_diy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_gift.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_gift_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_hitegg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_home.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_laugh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_link.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_list.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_list_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_money.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_nav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_pan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_pencil.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_pic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_product.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_qr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_quiz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_scrach.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_setting.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_star.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_store.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_survey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_tag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_tel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_test.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_text.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_time.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_vote.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_web.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/icon_write.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/iphone0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/iphone1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/pic_card.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/pic_li.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/pic_money.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/pic_quan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/pic_store.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/pic_tag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/radio_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/radio_icon_check.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/radio_icon_check_disable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/radio_icon_disable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/select_down_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/success.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/success_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/top_line.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/top_nav_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/user_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/images/m/wifi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/errors/403_B.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/article/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/scss/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/scss/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/scss/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/scss/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/scss/_spinning.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/scss/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/js/admin_common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/mobile/list1/archives.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/mobile/list1/article.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/article_B.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/mobile/article_b.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/mobile/list1/article_lists.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/mobile/article_lists_b.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/less/bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/mobile/list1/category.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/js/category.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/mobile/category1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/category2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/css/detail.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/js/m/dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/js/dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/less/fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/js/m/flipsnap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/js/flipsnap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/mobile/macros/imagethumb.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/js/jquery-2.0.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/less/larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/mobile/layout_B.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/less/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/css/mobile_module.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/js/m/mobile_module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/js/mobile_module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/utils/prefix_file_utcnow.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/js/prefixfree.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/less/rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/less/spinning.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/less/stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirements/toutiao.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/utils/uploads.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/font-awesome/less/variables.less" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/_themes/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/_themes/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/_themes/flask/layout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/_themes/flask/relations.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/_themes/flask/static/flasky.css_t" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/_themes/flask/theme.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/_themes/flask_small/layout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/_themes/flask_small/static/flasky.css_t" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/_themes/flask_small/theme.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/_themes/flask_theme_support.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/conf.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/index.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/installation.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/make.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/models.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/templating.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/GPL-2.0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/HISTORY" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/INSTALL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/MANIFEST.in" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/MySQLdb/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/MySQLdb/connections.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/MySQLdb/constants/CLIENT.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/MySQLdb/constants/CR.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/MySQLdb/constants/ER.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/MySQLdb/constants/FIELD_TYPE.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/MySQLdb/constants/FLAG.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/MySQLdb/constants/REFRESH.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/MySQLdb/constants/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/MySQLdb/converters.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/MySQLdb/cursors.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/MySQLdb/release.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/MySQLdb/times.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/PKG-INFO" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/_mysql.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/_mysql_exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/distribute-0.6.28.tar.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/distribute_setup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/doc/FAQ.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/doc/MySQLdb.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/metadata.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/pymemcompat.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/setup.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/setup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/setup_common.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/setup_posix.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/setup_windows.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/site.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/tests/capabilities.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/tests/configdb.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/tests/dbapi20.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/tests/test_MySQLdb_capabilities.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/tests/test_MySQLdb_dbapi20.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysqldb/tests/test_MySQLdb_nonstandard.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/errors/403.html" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/errors/403.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/errors/404.html" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/errors/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/errors/500.html" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/errors/500.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wtxlog/__init__.py" afterPath="$PROJECT_DIR$/wtxlog/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/templates/admin/model/a_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/static/admin/utils/autopinyin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/static/admin/utils/edit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/static/admin/utils/css/jquery-confirm.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/static/admin/utils/jquery-confirm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wtxlog/static/admin/utils/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wtxlog/admins.py" afterPath="$PROJECT_DIR$/wtxlog/admins.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.conf" afterPath="$PROJECT_DIR$/app.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/mobile/article.html" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/mobile/article.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/mobile/article_lists.html" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/mobile/article_lists.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/mobile/category.html" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/mobile/category.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.py" afterPath="$PROJECT_DIR$/config.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.yaml" afterPath="$PROJECT_DIR$/config.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wtxlog/ext.py" afterPath="$PROJECT_DIR$/wtxlog/ext.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/mobile/layout.html" afterPath="$PROJECT_DIR$/wtxlog/themes/imtx/templates/mobile/layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wtxlog/templates/admin/model/editor.html" afterPath="$PROJECT_DIR$/wtxlog/templates/admin/model/editor.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wtxlog/translations/zh_Hans_CN/LC_MESSAGES/messages.po" afterPath="$PROJECT_DIR$/wtxlog/translations/zh_Hans_CN/LC_MESSAGES/messages.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wtxlog/models.py" afterPath="$PROJECT_DIR$/wtxlog/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wtx/pip-selfcheck.json" afterPath="$PROJECT_DIR$/wtx/pip-selfcheck.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wtxlog/main/views.py" afterPath="$PROJECT_DIR$/wtxlog/main/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/wtxlog.iml" afterPath="$PROJECT_DIR$/.idea/wtxlog.iml" />
     </list>
     <ignored path="wtxlog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -257,81 +34,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wtxlog/main/views.py">
+      <file leaf-file-name="editor.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wtxlog/templates/admin/model/editor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.2" vertical-offset="135" max-vertical-offset="6495">
-              <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+            <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="1290">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="79" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="404.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wtxlog/themes/imtx/templates/errors/404.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="240">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="500.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wtxlog/themes/imtx/templates/errors/500.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="240">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="toutiao.txt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/requirements/toutiao.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3089622" vertical-offset="0" max-vertical-offset="645">
-              <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="403_B.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wtxlog/themes/imtx/templates/errors/403_B.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="240">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="403.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wtxlog/themes/imtx/templates/errors/403.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="240">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admins.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="admins.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wtxlog/admins.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.0" vertical-offset="870" max-vertical-offset="8850">
-              <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.5580524" vertical-offset="886" max-vertical-offset="8910">
+              <caret line="69" column="43" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
               <folding>
                 <element signature="e#25#54#0" expanded="true" />
               </folding>
@@ -339,27 +56,84 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wtxlog/themes/imtx/templates/mobile/article.html">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wtxlog/static/admin/utils/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="390">
-              <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+              <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#51#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wtxlog/templates/admin/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="360">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article_b.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wtxlog/themes/imtx/templates/mobile/article_b.html">
+      <file leaf-file-name="a_create.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wtxlog/templates/admin/model/a_create.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="825">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="41" />
-              <folding>
-                <marker date="1449323092000" expanded="true" signature="677:1010" placeholder="..." />
-                <marker date="1449323092000" expanded="true" signature="1024:1696" placeholder="..." />
-                <marker date="1449323092000" expanded="true" signature="1094:1348" placeholder="..." />
-                <marker date="1449323092000" expanded="true" signature="1470:1657" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="195">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="a_list.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wtxlog/templates/admin/model/a_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="240">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-confirm.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wtxlog/static/admin/utils/jquery-confirm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7065">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-confirm.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wtxlog/static/admin/utils/css/jquery-confirm.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6735">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="a_edit.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wtxlog/templates/admin/model/a_edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="195">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filters.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wtxlog/static/admin/admin/js/filters.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1845">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -377,8 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/docs/index.rst" />
-        <option value="$PROJECT_DIR$/supervisord.conf" />
         <option value="$PROJECT_DIR$/gunicorn.conf.py" />
         <option value="$PROJECT_DIR$/gunicorn.conf" />
         <option value="$PROJECT_DIR$/alembic.ini" />
@@ -416,13 +188,20 @@
         <option value="$PROJECT_DIR$/wtxlog/themes/imtx/static/mobile/css/detail.css" />
         <option value="$PROJECT_DIR$/wtxlog/themes/imtx/templates/article.html" />
         <option value="$PROJECT_DIR$/wtxlog/themes/imtx/templates/mobile/article.html" />
-        <option value="$PROJECT_DIR$/wtxlog/admins.py" />
         <option value="$PROJECT_DIR$/wtxlog/main/views.py" />
         <option value="$PROJECT_DIR$/wtxlog/themes/imtx/templates/errors/404.html" />
         <option value="$PROJECT_DIR$/wtxlog/themes/imtx/templates/errors/403.html" />
         <option value="$PROJECT_DIR$/wtxlog/themes/imtx/templates/errors/500.html" />
-        <option value="$PROJECT_DIR$/wtxlog/translations/zh_Hans_CN/LC_MESSAGES/messages.po" />
         <option value="$PROJECT_DIR$/requirements/toutiao.txt" />
+        <option value="$PROJECT_DIR$/wtxlog/static/admin/utils/autopinyin.js" />
+        <option value="$PROJECT_DIR$/wtxlog/templates/admin/model/editor.html" />
+        <option value="$PROJECT_DIR$/wtxlog/translations/zh_Hans_CN/LC_MESSAGES/messages.po" />
+        <option value="$PROJECT_DIR$/wtxlog/static/admin/utils/edit.js" />
+        <option value="$PROJECT_DIR$/wtxlog/static/admin/utils/list.js" />
+        <option value="$PROJECT_DIR$/wtxlog/static/admin/utils/jquery-confirm.js" />
+        <option value="$PROJECT_DIR$/wtxlog/templates/admin/model/a_list.html" />
+        <option value="$PROJECT_DIR$/wtxlog/static/admin/utils/main.js" />
+        <option value="$PROJECT_DIR$/wtxlog/admins.py" />
       </list>
     </option>
   </component>
@@ -475,6 +254,116 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wtxlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wtxlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wtxlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wtxlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wtxlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wtxlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wtxlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wtxlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wtxlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wtxlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wtxlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wtxlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wtxlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wtxlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wtxlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -498,11 +387,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wtxlog/static/admin/utils/css" />
+      <recent name="$PROJECT_DIR$/wtxlog/static/admin/utils" />
       <recent name="$PROJECT_DIR$/wtxlog/themes/imtx/templates/errors" />
       <recent name="$PROJECT_DIR$/wtxlog/themes/imtx/templates/mobile" />
       <recent name="$PROJECT_DIR$/wtxlog/themes/imtx/templates" />
-      <recent name="$PROJECT_DIR$/wtxlog/static/uploads" />
-      <recent name="$PROJECT_DIR$/wtxlog/utils" />
     </key>
   </component>
   <component name="RunManager" selected="Python.wtxlog">
@@ -709,20 +598,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="700" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21875" sideWeight="0.8836858" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37171054" sideWeight="0.8836858" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42105263" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28289473" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21875" sideWeight="0.1163142" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37171054" sideWeight="0.1163142" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -752,147 +641,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.wsgi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="426">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14150943" vertical-offset="0" max-vertical-offset="424">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gunicorn.conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="426">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wtxlog/themes/imtx/templates/mobile/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25" vertical-offset="165" max-vertical-offset="645">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wtxlog/themes/imtx/templates/mobile/layout_B.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6" vertical-offset="0" max-vertical-offset="900">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wtxlog/themes/imtx/templates/mobile/category1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="330">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wtxlog/account/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6666665" vertical-offset="491" max-vertical-offset="2430">
-          <caret line="52" column="53" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="53" />
-          <folding>
-            <element signature="e#25#46#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wtxlog/account/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.2" vertical-offset="0" max-vertical-offset="210">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wtxlog/decorators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/Flask_Admin-1.1.0-py2.7.egg/flask_admin/contrib/sqla/view.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21226415" vertical-offset="0" max-vertical-offset="14565">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wtxlog/article/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15037593" vertical-offset="0" max-vertical-offset="399">
-          <caret line="4" column="56" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wtxlog/account/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1215">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements/common.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5306604" vertical-offset="0" max-vertical-offset="424">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wtxlog/utils/prefix_file_utcnow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1768868" vertical-offset="0" max-vertical-offset="424">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wtxlog/utils/uploads.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="315">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wtx/lib/python2.7/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35338345" vertical-offset="4404" max-vertical-offset="27345">
-          <caret line="328" column="17" selection-start-line="328" selection-start-column="17" selection-end-line="328" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/flask/globals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7169811" vertical-offset="281" max-vertical-offset="735">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wtx/lib/python2.7/site-packages/flask_admin/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="1922" max-vertical-offset="7605">
-          <caret line="142" column="17" selection-start-line="142" selection-start-column="17" selection-end-line="142" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wtxlog/themes/imtx/static/js/lib.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2006689" vertical-offset="0" max-vertical-offset="299">
@@ -1023,14 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wtxlog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.12" vertical-offset="7742" max-vertical-offset="15570">
-          <caret line="544" column="20" selection-start-line="544" selection-start-column="8" selection-end-line="544" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wtxlog/themes/imtx/templates/article_B.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.5" vertical-offset="180" max-vertical-offset="1410">
@@ -1076,10 +816,10 @@
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="825">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="41" />
           <folding>
-            <marker date="1449323092000" expanded="true" signature="677:1010" placeholder="..." />
-            <marker date="1449323092000" expanded="true" signature="1024:1696" placeholder="..." />
-            <marker date="1449323092000" expanded="true" signature="1094:1348" placeholder="..." />
-            <marker date="1449323092000" expanded="true" signature="1470:1657" placeholder="..." />
+            <marker date="1449323092000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449323092000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449323092000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449323092000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1089,16 +829,6 @@
         <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="390">
           <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wtxlog/admins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.0" vertical-offset="870" max-vertical-offset="8850">
-          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
-          <folding>
-            <element signature="e#25#54#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1134,14 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wtxlog/translations/zh_Hans_CN/LC_MESSAGES/messages.po">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29245284" vertical-offset="2771" max-vertical-offset="3735">
-          <caret line="193" column="14" selection-start-line="193" selection-start-column="14" selection-end-line="193" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wtxlog/themes/imtx/templates/errors/500.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="240">
@@ -1160,9 +882,189 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements/toutiao.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3089622" vertical-offset="0" max-vertical-offset="645">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
           <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.hgignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2" vertical-offset="165" max-vertical-offset="1080">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wtxlog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.673716" vertical-offset="7742" max-vertical-offset="15570">
+          <caret line="547" column="21" selection-start-line="547" selection-start-column="21" selection-end-line="547" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wtxlog/static/admin/utils/autopinyin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1632" max-vertical-offset="2010">
+          <caret line="142" column="5" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wtxlog/translations/zh_Hans_CN/LC_MESSAGES/messages.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1460" max-vertical-offset="3735">
+          <caret line="105" column="17" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wtxlog/static/admin/utils/edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wtxlog/templates/admin/my_master.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="331">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wtxlog/static/admin/admin/js/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wtxlog/static/admin/admin/js/rediscli.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1830">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wtxlog/static/admin/admin/js/form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.468278" vertical-offset="3134" max-vertical-offset="3465">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wtxlog/templates/sitemap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="318">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wtxlog/static/admin/admin/js/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1845">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wtx/lib/python2.7/site-packages/flask_admin/templates/admin/model/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9597701" vertical-offset="1673" max-vertical-offset="2640">
+          <caret line="157" column="16" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wtxlog/templates/admin/model/a_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="195">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wtxlog/templates/admin/model/a_create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="195">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wtxlog/templates/admin/model/editor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="1290">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wtxlog/templates/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="360">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wtxlog/static/admin/utils/jquery-confirm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7065">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wtxlog/static/admin/utils/css/jquery-confirm.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6735">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wtxlog/templates/admin/model/a_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="240">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wtxlog/static/admin/utils/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#51#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wtxlog/admins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5580524" vertical-offset="886" max-vertical-offset="8910">
+          <caret line="69" column="43" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
+          <folding>
+            <element signature="e#25#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,10 @@
+{% extends 'admin/model/list.html' %}
+
+
+
+{% block tail %}
+  {{ super() }}
+   <link rel="stylesheet" type="text/css" href="/static/admin/utils/css/jquery-confirm.css" />
+  <script type="text/javascript" src="/static/admin/utils/jquery-confirm.js"></script>
+  <script type="text/javascript" src="/static/admin/utils/main.js"></script>
+{% endblock %}

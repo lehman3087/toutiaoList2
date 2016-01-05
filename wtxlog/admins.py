@@ -43,8 +43,8 @@ def format_datetime(self, request, obj, fieldname, *args, **kwargs):
 
 def view_on_site(self, request, obj, fieldname, *args, **kwargs):
     return Markup('%s%s' % (
-        HTML.i(style='margin-right:5px;', class_='icon icon-eye-open'),
-        link_to(_('View'), obj.link, target='_blank'),
+        HTML.i(style='margin-right:5px;', class_='icon viewurl icon-eye-open'),
+        link_to(_('View'), 'javascript:void(0);', target='_blank',class_='example_left',data=obj.link),
     ))
 
 
@@ -67,10 +67,9 @@ class ArticleAdmin(sqla.ModelView):
     edit_template = "admin/model/a_edit.html"
 
     column_list = ('title', 'category', 'tags', 'published', 'ontop',
-                   'recommend', 'created', 'view_on_site')
+                   'recommend', 'created', )
 
-    form_excluded_columns = ('author', 'body_html', 'hits', 'created',
-                             'last_modified','seotitle')
+
     form_args = dict(
         thumbnail_big=dict(
             base_path=Config.UPLOADS_FOLDER,
@@ -87,31 +86,33 @@ class ArticleAdmin(sqla.ModelView):
                              created=format_datetime)
 
     form_create_rules = (
-        'title', 'seotitle', 'category', 'topic', 'tags', 'body',
-        'summary', 'published', 'ontop', 'recommend', 'seokey',
-        'seodesc', 'thumbnail', 'thumbnail_big', 'template',
+        'title', 'category', 'body',
+        'summary', 'published', 'ontop', 'recommend','thumbnail_big'
     )
     form_edit_rules = form_create_rules
 
-    form_overrides = dict(seodesc=TextAreaField, body=EDITOR_WIDGET,
+    form_overrides = dict( body=EDITOR_WIDGET,
                           summary=TextAreaField,thumbnail_big=S3ImageUploadField)
+
+    form_excluded_columns = ('author', 'body_html', 'hits', 'created',
+                             'last_modified','seotitle','topic','tags','seokey','seodesc','thumbnail','template')
 
     column_labels = dict(
         title=_('Title'),
-        seotitle=_('SEOTitle'),
+        # seotitle=_('SEOTitle'),
         category=_('Category'),
-        topic=_('Topic'),
-        tags=_('Tags'),
+        # topic=_('Topic'),
+        # tags=_('Tags'),
         body=_('Body'),
         summary=_('Summary'),
         published=_('Published'),
         ontop=_('Ontop'),
         recommend=_('Recommend'),
-        seokey=_('SEO Keyword'),
-        seodesc=_('SEO Description'),
-        thumbnail=_('Thumbnail'),
+        # seokey=_('SEO Keyword'),
+        # seodesc=_('SEO Description'),
+        # thumbnail=_('Thumbnail'),
         thumbnail_big=_('Big Thumbnail'),
-        template=_('Template'),
+        # template=_('Template'),
         created=_('Created'),
         view_on_site=_('View on Site'),
     )
@@ -119,11 +120,11 @@ class ArticleAdmin(sqla.ModelView):
     form_widget_args = {
         'title': {'style': 'width:480px;'},
         'slug': {'style': 'width:480px;'},
-        'seotitle': {'style': 'width:480px;'},
-        'seokey': {'style': 'width:480px;'},
-        'seodesc': {'style': 'width:480px; height:80px;'},
-        'thumbnail': {'style': 'width:480px;'},
-        'template': {'style': 'width:480px;'},
+        # 'seotitle': {'style': 'width:480px;'},
+        # 'seokey': {'style': 'width:480px;'},
+        # 'seodesc': {'style': 'width:480px; height:80px;'},
+        # 'thumbnail': {'style': 'width:480px;'},
+        # 'template': {'style': 'width:480px;'},
         'summary': {'style': 'width:680px; height:80px;'},
     }
 
@@ -159,35 +160,38 @@ class CategoryAdmin(sqla.ModelView):
 
     create_template = "admin/model/a_create.html"
     edit_template = "admin/model/a_edit.html"
+    list_template = "admin/model/a_list.html"
 
-    column_list = ('name', 'longslug', 'seotitle', 'view_on_site')
+    column_list = ('name', 'longslug',  'view_on_site')
 
     column_searchable_list = ('slug', 'longslug', 'name')
 
-    form_excluded_columns = ('articles', 'body_html', 'longslug', 'children')
 
-    form_overrides = dict(seodesc=TextAreaField, body=EDITOR_WIDGET)
+
+    form_overrides = dict(body=EDITOR_WIDGET)
 
     column_formatters = dict(view_on_site=view_on_site)
 
     column_labels = dict(
         parent=_('Parent'),
+
+        name=_('Name'),
         slug=_('Slug'),
         longslug=_('LongSlug'),
-        name=_('Name'),
-        seotitle=_('SEOTitle'),
+        # seotitle=_('SEOTitle'),
         body=_('Body'),
-        seokey=_('SEO Keyword'),
-        seodesc=_('SEO Description'),
-        thumbnail=_('Thumbnail'),
-        template=_('Template'),
-        article_template=_('Template of Articles'),
+        # seokey=_('SEO Keyword'),
+        # seodesc=_('SEO Description'),
+        # thumbnail=_('Thumbnail'),
+        # template=_('Template'),
+        # article_template=_('Template of Articles'),
         view_on_site=_('View on Site'),
     )
-
+    form_excluded_columns = ('articles', 'body_html', 'longslug', 'children','thumbnail','seotitle','seokey','seodesc','template','article_template')
     form_widget_args = {
-        'slug': {'style': 'width:320px;'},
         'name': {'style': 'width:320px;'},
+        'slug': {'style': 'width:320px;'},
+
         'thumbnail': {'style': 'width:480px;'},
         'seotitle': {'style': 'width:480px;'},
         'seokey': {'style': 'width:480px;'},

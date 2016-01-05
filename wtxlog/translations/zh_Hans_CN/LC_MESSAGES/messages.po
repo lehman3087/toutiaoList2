@@ -103,7 +103,7 @@ msgstr "父级"
 #: ../admins.py:163 ../admins.py:227 ../admins.py:285 ../admins.py:342
 #: ../admins.py:425
 msgid "Slug"
-msgstr "标识符"
+msgstr "标识符(请填写拼音)"
 
 #: ../admins.py:164
 msgid "LongSlug"

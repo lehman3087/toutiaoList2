@@ -1,5 +1,7 @@
 {% if config['BODY_FORMAT'] == 'html' %}
 <script src="{{ url_for('static', filename='admin/ckeditor/ckeditor.js') }}"></script>
+<script src="{{ url_for('static', filename='admin/utils/autopinyin.js') }}"></script>
+     <script type="text/javascript" src="/static/admin/utils/edit.js"></script>
 {% else %}
 {% if Setting.get('mdeditor') != 'markitup' %}
 <!-- image upload modal -->
@@ -62,10 +64,17 @@
 <!-- markItUp! toolbar settings -->
 <script type="text/javascript" src="/static/admin/markitup/sets/markdown/ajaxfileupload.js"></script>
 <script type="text/javascript" src="/static/admin/markitup/sets/markdown/set.js"></script>
+ <script type="text/javascript" src="/static/admin/utils/edit.js"></script>
 <script language="javascript">
 $(document).ready(function()	{
+    // alert('1');
     $('.markitup').markItUp(myMarkdownSettings);
+
+
+
     });
+
+
 </script>
 {% endif %}
 {% endif %}
